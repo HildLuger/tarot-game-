@@ -1,11 +1,31 @@
 import React from 'react';
+import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link'; 
-
-
+import Link from 'next/link';
 
 const Arcana = () => {
+    // Step 1: Define the preload array
+    const preloadImages = [];
+
+    // Step 2: Loop through your images
+    for (let i = 0; i <= 78; i++) {
+        // Step 3: Create and push <link> elements to the array
+        preloadImages.push(
+            <link 
+                key={`arcana-preload-${i}`}
+                rel="preload" 
+                href={`/Arcana${i}.jpg`} // Assuming the images are in the public folder
+                as="image" 
+            />
+        );
+    }
+
     return (
+        <>
+            <Head>
+                {/* Step 4: Include the array in the <Head> */}
+                {preloadImages}
+            </Head>
         <div className="flex flex-col items-center justify-start overflow-auto">
             <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3 ml-14vw mr-14vw  mt-20 ">
 
@@ -2004,7 +2024,7 @@ A corrupt man, false, egoistic, and deceitful in pursuing his own ends.</p>
        
         </div>
 
-
+        </>
     );
 };
 

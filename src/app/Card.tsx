@@ -33,6 +33,7 @@ export const ArcanaCard = () => {
   return (
     <div className={styles.arcanaContainer}>
       <Head>
+        {/* Preload all card images */}
         {cardImages.map((src, index) => (
           <link key={index} rel="preload" href={src} as="image" />
         ))}
