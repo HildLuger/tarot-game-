@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Background Images for Light and Dark Modes */
+.light-mode-bg {
+  background-image: url('/bg1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.dark-mode-bg {
+  background-image: url('/bg2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ 
+ 
+}
+
+/* Apply styles for body */
+body {
+  @apply m-0 text-gray-800 light-mode-bg;
+  transition: background 1s ease, color 1s ease;
+}
+
+/* Dark mode styles */
+.dark body {
+  @apply m-0 text-white dark-mode-bg;
+  transition: background 1s ease, color 1s ease;
+}
+
+/* Navbar, Footer, and Text Styles */
+.navbar, .footer, .text1, .text2, .text3, .title {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.footer {
+  font-size: 1rem;
+}
+
+
+
+/* About Container */
+.aboutContainer {
+  margin-left: 20vw;
+}
+
+/* src/styles/Card.module.css */
+
+
+
+
+
+.revealed-cards {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adjust the space between revealed cards */
+  width: auto;
+
+}
+
+.revealed-cards div {
+  position: relative;
+  width: auto;
+}
+
+
+.icon {
+  width: 2rem;
+  height:2rem;
+  /* Additional styling as needed */
+}
+
+.reload-button {
+  width: 25px;  /* Adjust the width as needed */
+  height: 25px; /* Adjust the height as needed */
+  width: auto;
+}
+
+/* Style for the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}

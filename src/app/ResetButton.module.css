@@ -1,0 +1,11 @@
+/* src/components/ResetButton.module.css */
+.resetButton {
+    position: fixed;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it stays above the footer */
+  }
+  
