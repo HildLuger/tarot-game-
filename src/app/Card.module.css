@@ -33,3 +33,18 @@
 .flipped {
     animation: flipCard 0.8s forwards;
 }
+
+
+
+
+/* Responsive adjustments based on max-height */
+@media (max-height: 720px) {
+    .arcanaContainer {
+        position: relative;
+        width: 7rem;
+        height: 14rem;
+        perspective: 1000px;
+
+       
+    }
+  }

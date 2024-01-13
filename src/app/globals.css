@@ -76,6 +76,23 @@ body {
 }
 
 
+/* Responsive adjustments based on max-height */
+@media (max-height: 720px) {
+  .revealed-cards {
+  
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust the space between revealed cards */
+    margin-left: 20px;
+ 
+    width: auto;
+  
+  }
+}
+
+
 .icon {
   width: 2rem;
   height:2rem;

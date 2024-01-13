@@ -20,6 +20,13 @@ const config: Config = {
       spacing: {
         '14vw': '14vw',
       },
+
+      transformStyle: {
+        '3d': 'preserve-3d',
+      },
+      perspective: {
+        '1000': '1000px',
+      },
     },
   },
   plugins: [],
