@@ -84,7 +84,7 @@ Reversed Card: <br />
 </span>
 All the negative aspects of acting are exalted; for example, it may mean: acting negatively,<br/> <br/>
  too quickly, and acting without thinking, seeking status, lack of confidence in one&apos;s own <br/> <br/>
- capabilities that are instead effective, misbehaving, obsession with material results while neglecting true values.<br/> <br/>
+ capabilities that are instead effective, misbehaving, obsession with material results while neglecting true values.
 </p> 
                 {/* Rest of the text */}
             </div>
