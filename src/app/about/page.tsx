@@ -2,13 +2,16 @@ import '../globals.css';
 
 export default function About() {
   return (
-    <div className=" flex items-center justify-center ml-14vw mr-14vw  bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mt-40 p-10">
+    <div className="h-screen flex items-center justify-center ml-14vw mr-14vw ">
+
+      <div className=' bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white p-10'>
+
       <div>
         <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3">
          Welcome.
         </h1>
         <p className=" text-center text-base bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white leading-relaxed mb-2 p-3">
-           I&apos;m Hild Luger, a Front-End Web Developer. <br /> I built this Tarot game using Next.js 14, Typescript, Redux ToolKit and Tailwind CSS.
+           I&apos;m Hild Luger, a Front-End Web Developer. <br /> I built this Tarot game using Next.js 14, Typescript, Redux ToolKit and Tailwind CSS. <br />
            Feel free to contact me for future projects.
         </p>
         
@@ -29,6 +32,8 @@ export default function About() {
           </a>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }
