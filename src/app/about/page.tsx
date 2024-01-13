@@ -8,7 +8,7 @@ export default function About() {
          Welcome.
         </h1>
         <p className=" text-center text-base bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white leading-relaxed mb-2 p-3">
-           I&apos;m Hild Luger, a Front-End Web Developer. I built this Tarot game using Next.js 14, Typescript, Redux ToolKit and Tailwind CSS.
+           I&apos;m Hild Luger, a Front-End Web Developer. <br /> I built this Tarot game using Next.js 14, Typescript, Redux ToolKit and Tailwind CSS.
            Feel free to contact me for future projects.
         </p>
         
@@ -21,7 +21,7 @@ export default function About() {
           </a><br /><br />
         </p>
         <p className="text-center text-base bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3">
-          I&apos;m also a 3D Technical Artist. You can see my 3D portfolio at the following link:
+          I&apos;m also a 3D Technical Artist. <br /> You can see my 3D portfolio at the following link:
         </p>
         <div className="text-center">
           <a href="https://www.artstation.com/longshortdreamslsd" target="_blank" rel="noopener noreferrer" className="p-3 bg-custom-blue dark:bg-custom-purple   text-red-800 hover:text-red-500">
