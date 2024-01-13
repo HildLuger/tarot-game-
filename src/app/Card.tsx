@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import { useDispatch, useSelector } from 'react-redux';
@@ -14,15 +14,21 @@ export const ArcanaCard = () => {
   // Generate an array with the paths of all 79 cards
   const cardImages = Array.from({ length: 79 }, (_, i) => `/Arcana${i}.jpg`);
 
+  useEffect(() => {
+    // Preload all card images
+    cardImages.forEach((src) => {
+      const img = document.createElement('img');
+      img.src = src;
+    });
+  }, []);
+
   const handleFlip = () => {
     if (!allCardsRevealed && !isFlipping) {
       setIsFlipping(true); // Start flip animation immediately
 
-      // Change content halfway through the flip (600ms into a 1.2s animation)
       setTimeout(() => {
         dispatch(flipCard());
 
-        // End of flip
         setTimeout(() => {
           setIsFlipping(false);
         }, 300); // Remaining time of the flip
@@ -33,8 +39,8 @@ export const ArcanaCard = () => {
   return (
     <div className={styles.arcanaContainer}>
       <Head>
-        {/* Preload all card images */}
-        {cardImages.map((src, index) => (
+        {/* Optionally preload the first few images */}
+        {cardImages.slice(0, 5).map((src, index) => (
           <link key={index} rel="preload" href={src} as="image" />
         ))}
       </Head>
@@ -45,8 +51,8 @@ export const ArcanaCard = () => {
           width={200}
           height={400}
           className={styles.cardImage}
-          loading="eager" 
-          priority={currentCard === "Arcana0.jpg"} // Add priority if the current card is Arcana0.jpg
+          loading="eager"
+          priority={currentCard === "Arcana0.jpg"}
         />
       </div>
       {allCardsRevealed && (
