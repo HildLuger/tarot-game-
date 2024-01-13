@@ -27,7 +27,7 @@ const Arcana = () => {
                 {preloadImages}
             </Head>
         <div className="flex flex-col items-center justify-start overflow-auto">
-            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3 ml-14vw mr-14vw  mt-20 ">
+            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5 ml-14vw mr-14vw  mt-20 ">
 
 <p><b>Would you dare to play this game? What answers can you find? </b> <br /><br />
     
@@ -52,7 +52,7 @@ Typically five or ten cards are drawn depending on the tradition, but feel free 
 Find a peaceful place. Ask a question in your head. See what the cards have to tell you.</p><br /><br />
 </div>
 
-<h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3 mt-20">
+<h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-5 mt-20">
          MAJOR ARCANA
         </h1>
 
@@ -70,7 +70,7 @@ Find a peaceful place. Ask a question in your head. See what the cards have to t
                 </Link>
             </div>
 
-            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3 ml-14vw mr-14vw ">
+            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5 ml-14vw mr-14vw ">
                 <p>1. The magician is a figure that represents action; in fact, 
                     the magician is the person who makes his own destiny, who is enterprising, who acts, and who obtains results. <br/><br/>
 
@@ -101,7 +101,7 @@ All the negative aspects of acting are exalted; for example, it may mean: acting
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3  ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3  p-5 ml-14vw mr-14vw ">
                 <p>2. The High Priestess card represents serenity, knowledge, faith and loyalty, values and moral rectitude.<br/> <br/>
 
 It often refers to a female figure who is reliable and sincere.
@@ -130,7 +130,7 @@ Reversed Card: <br />
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5 ml-14vw mr-14vw ">
                 <p>
                 3. The Empress indicates stability, strength, and protection.<br/> <br/>
 
@@ -160,7 +160,7 @@ Rigidity in morals and in action, an excess of drastic measures, excessive prote
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3  p-5 ml-14vw mr-14vw ">
                 <p>
                 4. The Emperor in the Tarot symbolizes strength, authority, security, power, wealth, charisma, virility, knowledge, and fortitude.<br/> <br/>
 
@@ -187,7 +187,7 @@ Rigidity, arrogance, severity, taking drastic means, excessive use of force.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3  p-5 ml-14vw mr-14vw ">
          <p>5. The Hierophant symbolizes sound, selfless advice, the approval of others, well-deserved success, a faithful and loyal person upon which one can rely.<br/> <br/>
 
          The Hierophant can represent an outsider, a mentor, a figure we respect and can follow as a role model.<br/> <br/>
@@ -214,7 +214,7 @@ In some cases, it may also mean excessive moralism.</p> <br/> <br/>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5 ml-14vw mr-14vw ">
               <p>6. The symbolism of the card is obvious: love.<br/> <br/>
 
 Other meanings of the card of The Lovers may be: desire for true love, physical attraction that transforms into spiritual attraction, positive temptations.<br/> <br/>
@@ -242,7 +242,7 @@ Too much love can be oppressive, a union that is not positive, separation and br
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3  p-5 ml-14vw mr-14vw ">
               <p>7. The Chariot predicts success in a specific situation.
 
 The success will be clear and powerful, transmitting complete satisfaction and glory. <br/> <br/>
@@ -272,7 +272,7 @@ The Chariot reversed may also symbolize excessive boasting of one&apos;s own suc
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3  p-5 ml-14vw mr-14vw ">
                <p>8. Justice represents fairness and rectitude, but also a rendering of accounts, a test, passing a test, or virtue. <br/> <br/>
 
                <span className='text-red-600'>
@@ -294,7 +294,7 @@ Upset balance, injustice, excessive severity, unfavorable evaluation.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5 ml-14vw mr-14vw ">
                <p>9. The Hermit is the symbol of wisdom.<br/> <br/>
 
 
@@ -331,7 +331,7 @@ Not having understood what is actually going on and who can be trusted.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>10. This card reminds us of the precariousness of situations destined to evolve and change. <br/> <br/>
 
 The crucial point is that things can evolve for the better, but also worsen. <br/> <br/>
@@ -362,7 +362,7 @@ Slow to exploit change as an opportunity.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>11. The card symbolizes brute strength (the lion) conquered by intelligence. <br/> <br/>
 
 It therefore reminds us to use our own intelligence to resolve situations, without taking drastic measures, rash solutions, or resorting to brute strength. <br/> <br/>
@@ -389,7 +389,7 @@ Lack of time to reflect - overcome by events - and consequential wrong actions.<
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
             <p>12. At first glance, this card seems to transmit a negative situation of immobility, but at a closer look, 
                 we understand that it is instead the situation of a person who refuses to struggle uselessly and waits for events to change, 
                 totally aware that an unfavorable situation is only temporary. <br/> <br/>
@@ -425,7 +425,7 @@ Useless efforts to change a situation that calls for only one course of action: 
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                
                <p>13. Death symbolizes a phase of the Cycle of Life, a traumatic phase that precedes a new birth. <br/> <br/>
 
@@ -456,7 +456,7 @@ Bad ending to a situation, misfortune.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
              <p>14. The card of Temperance calls for moderation.<br/> <br/>
 
 As in the past, wine was diluted with water; likewise, excesses should be avoided in life.<br/> <br/>
@@ -487,7 +487,7 @@ A situation is not being approached with the right balance; the wrong attitude i
                     </button>
                 </Link>
             </div>
-            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className=" flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
              <p>15. The Devil is the most negative card of the Tarot. <br/> <br/>
 
 It can symbolize evil or danger. <br/> <br/>
@@ -517,7 +517,7 @@ In other cases, it may refer to the end of a dangerous situation.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
               <p>16. The Tower of the Tarot represents the punishment of arrogance. <br/> <br/>
 
 
@@ -554,7 +554,7 @@ Losses.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>17. The card of The Star is undoubtedly positive.<br/> <br/>
 
 We must be optimistic because the stars are on our side and shining down on us benevolently.<br/> <br/>
@@ -589,7 +589,7 @@ Excessive pessimism even when the situation is not so serious.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>18. The iconography of the card clearly evokes its meaning: there is a sinister and obscure atmosphere brimming with deception.<br/> <br/>
 
 If caution is not taken, mistakes will be made; outside circumstances are unfavorable, tempting, and deceptive.<br/> <br/>
@@ -621,7 +621,7 @@ You are being deceived. Very dangerous circumstances in the near future.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>19. The sunlight returns to illuminate our path and eliminate the perils of darkness.<br/> <br/>
 
 Now our path is brighter and free from dangers.<br/> <br/>
@@ -655,7 +655,7 @@ It is difficult to find joy and be light hearted even when faced with positive s
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>20. Judgement is a card of renewal, evidently a situation is changing.<br/> <br/>
 
 The situation changes because the moment of the rendering of accounts has arrived.<br/> <br/>
@@ -689,7 +689,7 @@ Someone discovers that you have been at fault.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>21. The World is one of the most positive cards of the Tarot; it represents purity and harmony, creation and human knowledge.<br/> <br/>
 
 Objectives will be reached and success will be gained in what you are doing.<br/> <br/>
@@ -720,7 +720,7 @@ There will be some inappropriate behavior, but in spite of this, everything will
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>0. The card of The Fool may have a double meaning: both positive and negative.<br/> <br/>
 
 The positive meaning is to encourage us to let ourselves go and live freely.<br/> <br/>
@@ -744,7 +744,7 @@ Irresponsibility, irrationality, obsession, immaturity, lack of logic, acting ac
             </div><br/> <br/><br/> <br/>
 
 
-            <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3 mt-20">
+            <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-5 mt-20">
             THE SUIT OF WANDS
         </h1>
 
@@ -760,7 +760,7 @@ Irresponsibility, irrationality, obsession, immaturity, lack of logic, acting ac
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
             <p>
             Creativity, initiative, power, strength, enterprise. Creation of new things, production of new ideas, profitable deeds. <br /><br />
 
@@ -784,7 +784,7 @@ Making mistakes, failing to reach objectives, decadence.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A positive and strong union. Strong collaboration in a project, an alliance. A person to be counted on, supportive.
 
                <br /><br /> <span className='text-red-600'>
@@ -806,7 +806,7 @@ A couple in conflict. Confrontations with people close to us. Ties that are too 
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Perfect action. Protection towards us. The three wands form a sort of shield to protect us.
 
                <br /><br /> <span className='text-red-600'>
@@ -828,7 +828,7 @@ Needing protection, support.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Symmetry and harmony in life. Stability regained, relaxation. Small gratifying successes.
 
                <br /><br /> <span className='text-red-600'>
@@ -850,7 +850,7 @@ An unjustified lack of tranquility.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Instability, a tipping of the scales, dynamism.
 
                <br /><br /> <span className='text-red-600'>
@@ -872,7 +872,7 @@ Overly impetuous, a dispute, excessive desire.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Generally positive situation for our course of actions, favorable conditions, a solid base for the future.
 
                <br /><br /> <span className='text-red-600'>
@@ -894,7 +894,7 @@ Certainties at risk, status and security in danger.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A situation changes drastically, unexpected positive surprises.
 
                <br /><br /> <span className='text-red-600'>
@@ -916,7 +916,7 @@ Excess vices or even virtues.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
             <p>The card of balance. In spite of our actions the situation remains the same. The situation is positive and tends to remain so.
 
             <br /><br />  <span className='text-red-600'>
@@ -940,7 +940,7 @@ A stagnant situation.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>A perfectly executed deed (the Wands are the suit of action, and nine is the most perfect number because it is the multiplication of three times three, a number that is already perfect in and of itself). An excellent idea.
 
               <br /><br /> <span className='text-red-600'>
@@ -962,7 +962,7 @@ Envy or jealousy towards us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Giving all our strength to conclude our actions. Energy and dynamism.
 
                <br /><br />  <span className='text-red-600'>
@@ -984,7 +984,7 @@ Excess zeal, excessive restlessness that annoys others.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Youthful enthusiasm, headstrong yet positive action. A person who is younger than us and positively enthusiastic (possibly a man or a woman).
 
                 <br /><br />  <span className='text-red-600'>
@@ -1008,7 +1008,7 @@ Bad news. Errors caused by inexperience. A young rebel.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A highly successful action. A person who feels protective towards us, ready to defend us in a concrete fashion. Deserved success.
 
                <br /><br />  <span className='text-red-600'>
@@ -1032,7 +1032,7 @@ Arrogance, threats, conflicts, quarrels.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>An extraordinary woman, charismatic and of great influence. A woman who is trusted and tolerant, of strong values, altruistic, successful. A person who is ready to help and is sensitive. Likelihood of unexpected assistance, tangible support from outside.
 
                <br /><br />  <span className='text-red-600'>
@@ -1056,7 +1056,7 @@ A person with a secret agenda, a very astute and dangerous woman.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>Power acquired through hard work. An upright man, tolerant in spite of his own strength. A man of success, mature and intelligent, sure of himself to the point of not having to flaunt anything.
 
               <br /><br /> <span className='text-red-600'>
@@ -1067,7 +1067,7 @@ Reversed Card: <br />
 A severe man. Excessively rigid.</p>
             </div>
 
-            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3 mt-20">
+            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-5 mt-20">
             THE SUIT OF CUPS
         </h1>
 
@@ -1082,7 +1082,7 @@ A severe man. Excessively rigid.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
                <p>Maximum fertility and joy of living. Enormous satisfactions and strong feelings are on the way.
 
                <br /><br /> <span className='text-red-600'>
@@ -1106,7 +1106,7 @@ An opportunity wasted, a relationship thrown to the wind, a waste of resources, 
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>Union. A close tie with another person. A prolific relationship. Love.
 
               <br /><br /> <span className='text-red-600'>
@@ -1128,7 +1128,7 @@ A close tie with another person is weakening. A couple in conflict. A relationsh
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>A perfect understanding. Profitable and fully gratifying affairs. Total harmony and happiness. The birth of an opportunity.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1150,7 +1150,7 @@ New opportunities on the horizon, but it will be difficult to take advantage of 
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>Emotional stability. Positive stability. Pleasure rediscovered in your everyday life.
 
               <br /><br /> <span className='text-red-600'>
@@ -1172,7 +1172,7 @@ Lack of emotional stability. Ups and downs.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Good news. New opportunities to be seized, quickly however, because they will not last long.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1194,7 +1194,7 @@ Opportunities not acted upon, loss of important opportunities that would finally
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>The serenity of the past may return. Pleasant memories come to mind, making us reflect on our situation, stimulating our short-term future plans.
 
                <br /><br /> <span className='text-red-600'>
@@ -1216,7 +1216,7 @@ Painful memories. Not succeeding in eliminating a painful memory from our though
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>What seemed like it would never come, will finally arrive. A magical time.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1238,7 +1238,7 @@ Almost a curse, we are never allowed to find happiness.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>An opportunity to reflect on things. A sound foundation for creating something together with another person.
 
               <br /><br /> <span className='text-red-600'>
@@ -1260,7 +1260,7 @@ A risk of a situation crumbling although it seemed strong and sound.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A moment of utmost personal satisfaction, in terms of both love and career. New and worthwhile opportunities to be seized. Things could not be better.
 
                <br /><br />  <span className='text-red-600'>
@@ -1282,7 +1282,7 @@ Errors in managing a situation that would have been completely favorable. In spi
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>The ultimate serenity of the soul and willingness to love. Great inner richness that finally generates results and will be appreciated by others ... and by some in a very special way. We are finally attractive thanks to our inner beauty.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1304,7 +1304,7 @@ Great potential that is not exploited due only to the fact that we do not believ
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>A persistent attraction and fantasies involving a very attractive person who has made an impression on us. An attractive young person.
 
               <br /><br /> <span className='text-red-600'>
@@ -1326,7 +1326,7 @@ A ruthless person, betrayal in love, infidelity, real intentions are hidden.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Vitality in love; a renewal or rebirth of love. Rediscovering latent feelings; a desire to meet new and dynamic people.
 
                 <br /><br />   <span className='text-red-600'>
@@ -1348,7 +1348,7 @@ Jealousy, turbulent love, betrayal.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A woman with a strong maternal instinct; a highly intelligent and capable woman. A woman who loves us unselfishly and who always give sound advice. A woman who sacrifices herself for us. A woman who wields great influence over us.
 
                <br /><br />  <span className='text-red-600'>
@@ -1370,7 +1370,7 @@ An oppressive female figure; a rigid woman who restricts us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A charismatic man, a man who loves us unselfishly and who will always be a true guide.
 
                <br /><br /> <span className='text-red-600'>
@@ -1382,7 +1382,7 @@ A man who is too severe with us, a man who is overprotective.</p>
             </div>
 
 
-            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3 mt-20">
+            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-5 mt-20">
             THE SUIT OF SWORDS
         </h1>
 
@@ -1397,7 +1397,7 @@ A man who is too severe with us, a man who is overprotective.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Strength and ambition. Fearless, bold. Justice will be served.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1419,7 +1419,7 @@ Appearing as presumptuous and arrogant. Taking justice into our own hands.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>A worthy ally who will fight. A loyal person.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1441,7 +1441,7 @@ A conflict, duel. Conflicts with a friend.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Break-up of a relationship or partnership. The break-up is not necessarily negative.
 
                <br /><br />  <span className='text-red-600'>
@@ -1463,7 +1463,7 @@ A traumatic detachment, a dramatic break-up.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
                <p>Solitude and inner conflict. Restrictions, obstacles.
 
                <br /><br />  <span className='text-red-600'>
@@ -1485,7 +1485,7 @@ Abandon. Obsession.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
               <p>A serious loss. Anxiety and loss of rationality and tranquility.
 
               <br /><br /> <span className='text-red-600'>
@@ -1507,7 +1507,7 @@ Strong pain, serious worries, a sensation of having no way out.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>A path, journey, decision. A decision to be taken that gives rise to anxiety and restlessness.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1529,7 +1529,7 @@ A wrong choice, a decision taken in haste.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>The end of the old road. A new project that requires much energy, a new and ambitious project.
 
                 <br /><br />   <span className='text-red-600'>
@@ -1553,7 +1553,7 @@ Obstacle, a new risky project.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A situation that requires much energy. Good results, provided that all our energy is invested in the project.
 
                <br /><br />  <span className='text-red-600'>
@@ -1575,7 +1575,7 @@ Opposition, misunderstandings.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
                 <p>Positive ambitions, winning drive. Handling oneself deftly to avoid obstacles.
 
                 <br /><br /> <span className='text-red-600'>
@@ -1597,7 +1597,7 @@ Numerous pitfalls, hatred.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>The utmost desire to win, to conquer, and to profit at all costs.
 
                <br /><br /> <span className='text-red-600'>
@@ -1619,7 +1619,7 @@ Profits and advantages from dishonest deeds. Authority earned to the detriment o
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
                <p>Satisfaction from misbehavior. Forbidden attraction toward another person. Immoral deeds or those that go against common sense, but highly gratifying for their rarity and the temptation of the forbidden.
 
                <br /><br /> <span className='text-red-600'>
@@ -1641,7 +1641,7 @@ Bad companions, dangerous companions.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Positive anger and aggressiveness. A person ready to defend us, even if he or she acts very strongly.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1663,7 +1663,7 @@ Aggressiveness. A person aggressive towards us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A woman to be taken as a role model and whose advice should be heeded if we want to improve our situation. A loyal and combative woman.
 
                <br /><br />  <span className='text-red-600'>
@@ -1685,7 +1685,7 @@ A woman who may be setting a trap for us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>An important person, a potential ally, a person who stimulates us and motivates us to act.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1697,7 +1697,7 @@ A person who can hinder us.</p>
             </div>
 
 
-            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3 mt-20">
+            <br /><br /> <br /><br />  <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-5 mt-20">
             THE SUIT OF PENTACLES
         </h1>
 
@@ -1712,7 +1712,7 @@ A person who can hinder us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>A realization of desires. Happiness, and even euphoria. An extremely positive card, especially from an economic point of view, but not only.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1736,7 +1736,7 @@ Excessive desire for money, greed.
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Business dealings. Both the positive and negative sides of money. A good partner for business deals.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1758,7 +1758,7 @@ A disturbed personality, opposing tensions, moral doubts.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>A positive card, heralding a happy life; sound business dealings, good situations all around. Excellent overall situation for reaching self-gratification.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1780,7 +1780,7 @@ A very positive opportunity not seized. The situation is still positive, but cou
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Stability in the management of resources. Stability in all aspects of life.
 
                 <br /><br />   <span className='text-red-600'>
@@ -1802,7 +1802,7 @@ A stagnant economic situation, lack of enterprise.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Dynamism. Important achievements, not necessarily material, on the horizon. A happy time when we are appreciated and attractive to others.
 
                <br /><br />  <span className='text-red-600'>
@@ -1824,7 +1824,7 @@ Only material successes.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Unexpected generosity from others, unexpected gifts, luck and stability, material and general well-being.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1846,7 +1846,7 @@ Doubts, a precarious situation.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Excellent results, an objective attained, we spark positive curiosity and admiration in others.
 
                 <br /><br />  <span className='text-red-600'>
@@ -1868,7 +1868,7 @@ We do not realize who admires us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5  ml-14vw mr-14vw">
                <p>We gain serenity from a positive situation. We realize that material goods are not so important for our happiness and the happiness of others.
 
                <br /><br />  <span className='text-red-600'>
@@ -1890,7 +1890,7 @@ Feelings against us. A person who is unstable towards us.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Economic security. Our strong points are finally truly recognized and appreciated.
 
                <br /><br /> <span className='text-red-600'>
@@ -1912,7 +1912,7 @@ Be careful in making a decision. Personal achievements do not bring happiness if
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Truly great opportunities, but perhaps we will not be capable of seizing them.
 
                <br /><br />  <span className='text-red-600'>
@@ -1934,7 +1934,7 @@ Be careful! The higher you go, the harder you may fall.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>Good news in economic terms. A person who brings us good news.
 
                <br /><br /> <span className='text-red-600'>
@@ -1956,7 +1956,7 @@ Bad news in economic terms. A person who brings us bad news.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                 <p>Success at work. Energy at work. A person who supports our business and is of great help in our personal success.
 
                 <br /><br />   <span className='text-red-600'>
@@ -1978,7 +1978,7 @@ Excessive desire for economic success, a person who works too hard pursuing mone
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-3 p-5   ml-14vw mr-14vw">
                <p>A generous woman. A rich woman in all senses, especially in her soul. A woman who can definitely help us find happiness.
 
                <br /><br />  <span className='text-red-600'>
@@ -2000,7 +2000,7 @@ A request for help denied, a generous and altruistic female figure.</p>
                     </button>
                 </Link>
             </div>
-            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-20 p-3   ml-14vw mr-14vw">
+            <div className="flex items-center justify-center  bg-custom-blue dark:bg-custom-purple text-gray-600  dark:text-white leading-relaxed mb-20 p-5   ml-14vw mr-14vw">
                 <p>A rich and powerful man. A person with a strong sense of business. A charismatic boss. Possession of something valuable, even if not necessarily material in nature.
 
                 <br /><br />  <span className='text-red-600'>

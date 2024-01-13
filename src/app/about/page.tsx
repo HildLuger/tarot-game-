@@ -2,7 +2,7 @@ import '../globals.css';
 
 export default function About() {
   return (
-    <div className="h-screen flex items-center justify-center ml-14vw mr-14vw ">
+    <div className=" flex items-center justify-center ml-14vw mr-14vw  bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mt-40 p-10">
       <div>
         <h1 className="text-2xl text-center font-bold bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white mb-1 p-3">
          Welcome.
