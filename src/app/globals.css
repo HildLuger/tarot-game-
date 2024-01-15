@@ -67,7 +67,7 @@ body {
   justify-content: center;
   gap: 10px; /* Adjust the space between revealed cards */
   max-width: 600px;
-  padding-left: 20px;
+  padding-left: 10px;
   width: auto;
   margin-left: auto; /* Center the container horizontally */
   margin-right: auto; /* Center the container horizontally */
