@@ -4,12 +4,29 @@ import { useSelector } from 'react-redux';
 import { RootState } from './store';
 import Link from 'next/link';
 
-const SLIDE_MS = 500;
+// Side cards slide quickly; the new card fades in (after the slide, when
+// neighbors are actually moving) so nothing snaps abruptly.
+const SLIDE_MS = 400;
 const FADE_MS = 350;
+const SCROLL_MS = 600;
+
+// Eased, controlled scroll so revealing a new row glides instead of jumping.
+const smoothScrollTo = (el: HTMLElement, to: number, duration: number) => {
+  const start = el.scrollTop;
+  const change = to - start;
+  if (Math.abs(change) < 1) return;
+  const startTime = performance.now();
+  const ease = (t: number) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+  const step = (now: number) => {
+    const t = Math.min((now - startTime) / duration, 1);
+    el.scrollTop = start + change * ease(t);
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+};
 
 export const RevealedCards = () => {
   const { revealedCards, displayedCount } = useSelector((state: RootState) => state.arcana);
-  const endOfListRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Track each card element and its previous position for FLIP animations.
@@ -43,42 +60,60 @@ export const RevealedCards = () => {
       newRects.set(key, { x: r.left - base.left, y: r.top - base.top });
     });
 
+    // First pass: slide existing cards and note whether any actually moved.
+    let anySlide = false;
+    const newKeys: string[] = [];
     newRects.forEach((newRect, key) => {
       const el = refs.get(key);
       if (!el) return;
       const oldRect = prevRects.current.get(key);
 
-      if (oldRect) {
-        const dx = oldRect.x - newRect.x;
-        const dy = oldRect.y - newRect.y;
-        if (dx || dy) {
-          // Invert: jump back to the old position, then play to the new one.
-          el.style.transition = 'none';
-          el.style.transform = `translate(${dx}px, ${dy}px)`;
-          void el.offsetWidth; // force reflow so the transition takes effect
-          requestAnimationFrame(() => {
-            el.style.transition = `transform ${SLIDE_MS}ms ease-in-out`;
-            el.style.transform = 'translate(0, 0)';
-          });
-        }
-      } else {
-        // Newly added card: fade in only after the others have finished sliding,
-        // so it doesn't overlap them while transparent.
-        el.style.opacity = '0';
-        void el.offsetWidth;
+      if (!oldRect) {
+        newKeys.push(key);
+        return;
+      }
+      const dx = oldRect.x - newRect.x;
+      const dy = oldRect.y - newRect.y;
+      if (dx || dy) {
+        anySlide = true;
+        // Invert: jump back to the old position, then play to the new one.
+        el.style.transition = 'none';
+        el.style.transform = `translate(${dx}px, ${dy}px)`;
+        void el.offsetWidth; // force reflow so the transition takes effect
         requestAnimationFrame(() => {
-          el.style.transition = `opacity ${FADE_MS}ms ease-in-out ${SLIDE_MS}ms`;
-          el.style.opacity = '1';
+          el.style.transition = `transform ${SLIDE_MS}ms ease-in-out`;
+          el.style.transform = 'translate(0, 0)';
         });
       }
+    });
+
+    // Second pass: fade newly added cards in at a constant size. If neighbors
+    // are sliding (same-row reflow) wait for them; if a new row opened (no
+    // slide), fade in immediately so the row doesn't sit empty for a beat.
+    const enterDelay = anySlide ? SLIDE_MS : 0;
+    newKeys.forEach((key) => {
+      const el = refs.get(key);
+      if (!el) return;
+      el.style.transition = 'none';
+      el.style.opacity = '0';
+      void el.offsetWidth;
+      requestAnimationFrame(() => {
+        el.style.transition = `opacity ${FADE_MS}ms ease-in-out ${enterDelay}ms`;
+        el.style.opacity = '1';
+      });
     });
 
     prevRects.current = newRects;
   }, [displayedCount]);
 
   useEffect(() => {
-    // Scroll to the new element at the end of the list whenever a card is shown
-    endOfListRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Smoothly scroll the list's own scroll container to the bottom so a newly
+    // created row glides into view instead of snapping.
+    const scroller = containerRef.current?.parentElement;
+    if (!scroller) return;
+    const target = scroller.scrollHeight - scroller.clientHeight;
+    if (target <= 0) return;
+    smoothScrollTo(scroller, target, SCROLL_MS);
   }, [displayedCount]);
 
   // Function to extract section number from filename
@@ -110,7 +145,6 @@ export const RevealedCards = () => {
           </Link>
         );
       })}
-      <div ref={endOfListRef} />
     </div>
   );
 };

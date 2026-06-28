@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { arcanaCards } from './arcanaData';
 import styles from './arcana.module.css';
+import ArcanaSearch from './ArcanaSearch';
 
 const textCardClasses =
   'bg-custom-blue dark:bg-custom-purple text-gray-600 dark:text-white p-5';
@@ -38,6 +39,9 @@ const Arcana = () => {
   return (
     <>
       <Head>{preloadImages}</Head>
+
+      {/* Search bar — centered at the top of the navbar, only on this page. */}
+      <ArcanaSearch />
 
       <div className={styles.snapContainer}>
         {/* Section 1: Intro */}

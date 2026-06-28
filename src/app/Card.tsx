@@ -37,7 +37,7 @@ export const ArcanaCard = () => {
         el.style.transform = `translateY(${dy}px)`;
         void el.offsetWidth; // force reflow
         requestAnimationFrame(() => {
-          el.style.transition = 'transform 500ms ease-in-out';
+          el.style.transition = 'transform 400ms ease-in-out';
           el.style.transform = 'translateY(0)';
         });
       }
