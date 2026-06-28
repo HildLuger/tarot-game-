@@ -79,7 +79,7 @@ const rankTerms: string[][] = [
   ['Ten', '10', 'Diez', 'Dix', 'Zehn', 'Dez', '十', 'عشرة'],
   ['Page', 'Jack', 'Knave', 'Sota', 'Paje', 'Valet', 'Bube', 'Valete', 'Pajem', 'ペイジ', '小姓', '侍从', '侍者', '页', 'الغلام', 'الصبي'],
   ['Knight', 'Caballo', 'Caballero', 'Cavalier', 'Ritter', 'Cavaleiro', 'ナイト', '騎士', '骑士', 'الفارس'],
-  ['Queen', 'Reina', 'Reine', 'Dame', 'Königin', 'Rainha', 'クイーン', '女王', '王后', '皇后', 'الملكة'],
+  ['Queen', 'Reina', 'Reine', 'Dame', 'Dama', 'Königin', 'Rainha', 'クイーン', '女王', '王后', '皇后', 'الملكة'],
   ['King', 'Rey', 'Roi', 'König', 'Rei', 'キング', '王', '国王', '國王', 'الملك'],
 ];
 
